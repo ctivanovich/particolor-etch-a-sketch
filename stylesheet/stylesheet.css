@@ -1,6 +1,8 @@
 body{
-	height: 600px;
-	width: 1080px;
+	max-height: 500px;
+	position: absolute;
+	/* height: 800px;
+	width: 1200px; */
 }
 td{
 	background-color: clear;
@@ -14,12 +16,6 @@ td{
 	background-color: red;
 }
 
-.button{
-	float:right;
-	display: inline-block;
-	position: fixed;
-    margin:auto;
-}
 a{
 	text-decoration: none;
 	text-align: center;
@@ -29,18 +25,31 @@ a:hover{
 	color: buttonshadow;
 	background-color: green;
 }
+
+.button{
+    display: block;
+    position: absolute;
+    margin: 1em auto auto 40%;
+}
+
 button{
 	border: 2px solid black;
 	border-radius: 5px;
-	/* width: 200px;
-	height: 100px; */
+	background-color: #f0;
+	width: 100px;
+	height: 60px;
+}
+
+button:HOVER{
+	background-color: green;
 }
 table{
-	display: block;
 	position: absolute;
-	margin-top: 150px;
+	margin-top: 5em;
 }
 .wrapper{
+	display: block;
 	clear:both;
+	margin:auto;
 }
 	
